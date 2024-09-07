@@ -1,0 +1,101 @@
+
+.nav-back{
+  background-image: url('../Assets/bg_1.jpg.webp');
+  position: relative;
+  background-position: top center;
+  background-size: cover;
+  height: 100vh;
+  /* width: 100%; */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  /* margin-top: 10px; */
+}
+.nav-logo-lis{
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+}
+.nav-bar{
+  /* margin-top: -10px; */
+  /* display: flex; */
+  align-items: center;
+  gap: 30px;
+}
+.nav-logo img{
+  width: 320px;
+  margin-left: 20px;
+  /* align-items: center; */
+}
+.nav-list{
+  background: rgba(255, 255, 255, 0.15);
+  width: 100%;
+  padding: 10px 35px;
+  padding-right: 85px;
+  border-radius: 5px;
+}
+.nav-list ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 70px;
+}
+.nav-list li{
+  font-size: 20px;
+  color: white;
+  font-family:sans-serif;
+}
+.nav-list ul li:hover{
+  color:#1eb2a6;
+transition-duration: 0.8s;
+}
+
+.welinfo {
+  margin-top: 60px;
+  margin-left: 130px;
+}
+.welinfo #linwel{
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+#bston{
+margin-top: -20px;
+  color: white;
+  font-size: 50px;
+  width: 500px;
+  margin-bottom: 25px;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+ font-family: sans-serif;
+}
+.welinfo #tagline{
+  color: white;
+  width: 600px;
+  font-family: sans-serif;
+  line-height: 35px;
+  font-size: 15px;
+}
+
+.welinfo button{
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 5px ;
+  background-color: #1eb2a6;
+  padding: 15px 26px;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.welinfo #viewcoursebtn{
+  border-radius: 5px ;
+  color: #1eb2a6;
+  padding: 15px 26px;
+  border: none;
+  background-color: white;
+  font-size: 17px;
+  font-family: sans-serif; 
+}
